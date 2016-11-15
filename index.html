@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panorama demo</title>
+    <style>
+      canvas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: transparent;
+      }
+    </style>
+  </head>
+  <body onload="init()">
+    <!-- The canvas for the panning background -->
+    <canvas id="background" width="600" height="360">
+      Your browser does not support canvas. Please try again with a different browser.
+    </canvas>
+    <canvas id="tardis" width="600" height="360"></canvas>
+    <script src="js/input.js"></script>
+    <script src="js/drawable.js"></script>
+    <script src="js/imageRepo.js"></script>
+    <script src="js/tardis.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
